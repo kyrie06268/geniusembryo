@@ -13,6 +13,12 @@ public class Ex11_IncrementOperator {
 		System.out.println("증가 전 num1(후위형):"+ num2);
 		System.out.println("증가 중 num1(후위형):"+ ++num1);
 		System.out.println("증가 중 num1(후위형):"+ num2++);
+		++num1;
+		System.out.println("증가 중 num1(후위형):"+ ++num1);
+		System.out.println("증가 중 num1(후위형):"+ num2++);
+		num2++;
+		
+		
 		
 
 	}
