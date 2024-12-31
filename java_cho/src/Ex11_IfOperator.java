@@ -9,7 +9,7 @@ public class Ex11_IfOperator {
 	char op = scan.next().charAt(0);
 	int num2 = scan.nextInt();
 	System.out.println("" + num1 + op + num2 + "=");
-    if (op == '+') {
+    if 		(op == '+') {
 		System.out.println(num1 + num2);
 	}
     else if (op == '-') {
