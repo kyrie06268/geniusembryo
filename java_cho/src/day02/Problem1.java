@@ -4,15 +4,32 @@ public class Problem1 {
 
 	public static void main(String[] args) {
 		int[] lex = new int[] {1, 2, 3, 4, 5};
-		
+		int a;
 		for(int i = 1; i < lex.length-1; i++) {
 			if(lex[i+1] > lex[i]) {
-				int num = 0;
+				a = 0;
 					}
+			else{
+				for(int j = 2; j < lex.length-1; j++) {
+					if(lex[i+1] > lex[i]) {
+						a = 1;
+					}
+						}
+					else{
+						a = 2;
+					}
+				}
 			}
-		
-		for(int j = 0; j < lex.length; j++) {
-			System.out.print(lex[j]);
+
+		if(a == 0) {
+		for(int k = 0; k < lex.length; k++) {
+			System.out.print(lex[k]);}
+		}
+		if(a == 1) {
+			
+		}
+		if(a == 2) {
+			
 		}
 		
 	}
