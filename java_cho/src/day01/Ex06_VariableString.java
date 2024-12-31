@@ -19,9 +19,9 @@ public class Ex06_VariableString {
 		System.out.println(ch1 + operator + ch2 + "");
 		System.out.println("" + ch1 + operator + ch2);
 		
-		/*12345
-		  12354
-		  12435
+		/*12345 31245
+		  12354 245631 245
+		  12435 
 		  12453
 		  12534
 		  12543
