@@ -7,12 +7,12 @@ public class Ex05_ForPrimeNumber {
 		System.out.print("Enter a postive integer : ");
 		int num = scan.nextInt();
 		int count = 0;
-		for(int i = 2 ; i <= Math.sqrt(num) ; i++) {
+		for(int i = 1 ; i <= num ; i++) {
 			if(num % i == 0) {
 				count++;
 			}				
 		}
-		if(count == 0) {
+		if(count == 2) {
 			System.out.println(num + " is a prime.");
 		}
 		else {

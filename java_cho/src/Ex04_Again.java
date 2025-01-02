@@ -6,8 +6,10 @@ public class Ex04_Again {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter a postive integer : ");
 		int num = scan.nextInt();
-	
-		for(int i = 2 ; i <= Math.sqrt(num) ; i++) {
+		if(num == 2)
+			System.out.println(num + " is prime.");
+		else {
+		for(int i = 2 ; i <= num ; i++) {
 			if(num % i == 0) {
 				System.out.println(num + " is not a prime.");
 				break;
@@ -16,7 +18,7 @@ public class Ex04_Again {
 			break;	
 			}
 		}
-		
+		}	
 		
 		
 		
