@@ -17,21 +17,11 @@ public class Ex10_Homework1 {
 	System.out.print("Select an option : ");
 	char op;
 	do {
-		System.out.println("Menu");
-		System.out.println("1. UpDown game");
-		System.out.println("2. Best Record");
-		System.out.println("3. End Program");
+		
 		op = scan.next().charAt(0);
-		switch(op) {
-		case '1': upDownGame();
-			break;
-		case '2': System.out.println("Your best record is : " + count);
-		break;
-		case '3': 
-			System.out.println("Terminated.");
-		break;
-		}
-	}(while op != '3');
+		
+		
+	}while(op != '2');
 	
 	}
 public static void upDownGame() {
@@ -56,7 +46,25 @@ public static void upDownGame() {
 	}
 }
 public static void printMenu() {
-	
+	System.out.println("Menu");
+	System.out.println("1. UpDown game");
+	System.out.println("2. Best Record");
+	System.out.println("3. End Program");
 }
-
+public static void runMenu(char op) {
+	switch(op) {
+	case '1': upDownGame();
+		break;
+	case '2': 
+		int count = 0;
+		if(count == 0)
+			System.out.println("You haven't played yet.");
+		else
+			System.out.println("Your best record is : " + count);
+	break;
+	case '3': 
+		System.out.println("Terminated.");
+	break;
+	}
+}
 }
