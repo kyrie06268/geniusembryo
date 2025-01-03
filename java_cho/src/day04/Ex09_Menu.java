@@ -41,5 +41,7 @@ public class Ex09_Menu {
 			
 
 	}
-
+public void runMenu() {}
+public void runProgram() {}
+public void terminate() {}
 }
