@@ -1,3 +1,4 @@
+package day03;
 
 public class Ex21_NestedStar {
 

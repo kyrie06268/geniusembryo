@@ -1,3 +1,4 @@
+package day03;
 import java.util.Scanner;
 
 public class Ex11_Again {
