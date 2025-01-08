@@ -59,9 +59,12 @@ public static void addScore(String names[], int scores[]) {
 	}
 	}
 public static void print(String names[], int scores[]) {
+	int sum = 0;
 	for(int i = 0; i < names.length; i++) {
-	System.out.println(names[i] + "'s Korean score is : " + scores[i]);
+		sum += scores[i];
+		System.out.println(names[i] + "'s Korean score is : " + scores[i]);
 	}
+			System.out.println("Class average is : " + sum/scores.length);
 }
 
 }
