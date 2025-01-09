@@ -37,6 +37,10 @@ public class Ex06_AccountBook {
 				list[count++] = new Item(deposit, type, content, amount, date);
 				break;
 			case 2:
+				if(count == 0) {
+					System.out.println("Nothing to edit, yet.");
+					break;
+				}
 				for(i = 0; i < count; i++) {
 					list[i].print(i+1);
 				}
@@ -58,6 +62,10 @@ public class Ex06_AccountBook {
 				count--;
 				break;
 			case 4:
+				if(count == 0) {
+					System.out.println("Nothing to edit, yet.");
+					break;
+				}
 				for(i = 0; i < count ; i++) {
 					list[i].print(i+1);
 				}
