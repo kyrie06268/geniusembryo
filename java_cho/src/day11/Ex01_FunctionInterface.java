@@ -26,6 +26,7 @@ public static void print1(List<Person> list, Predicate<Person> p) {
 		}
 	}
 }
+
 }
 @Data
 @AllArgsConstructor
